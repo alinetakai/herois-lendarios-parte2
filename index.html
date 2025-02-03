@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela dos Heróis Lendários</title>
+    <link rel="shortcut icon" href="favicon.png" type="image/png">
+    <style>
+        body{
+            background: rgb(25, 25, 25); /*define a cor de fundo da página*/
+            color: white; /*define a cor do texto*/
+        }
+        table{
+            width: 100%; /*define a largura da tabela*/
+            border-collapse: collapse; /*As bordas das células são separadas, criando um espaço entre elas*/
+        }
+        th, td {
+            border: 1px solid rgb(228, 248, 6); /* Adiciona bordas às células,
+            1px é a espessura, solid é a visibilidade, o último parâmetro é a cor*/
+            padding: 8px; /*espaçamento interno*/
+            text-align: left; /*alinhamento do texto*/
+        }
+        img{
+            width: 300px; /*largura*/
+        }
+    </style>
+</head>
+<body>
+    <h1>Heróis Lendários: Os Protetores do Mundo</h1>
+    <p>
+        Bem-vindo ao universo dos Heróis Lendários, onde coragem, força e justiça se encontram 
+        para inspirar gerações. Aqui, você conhecerá as histórias dos maiores defensores da 
+        humanidade, que enfrentam desafios épicos para proteger nosso mundo e garantir a paz.
+    </p>
+    <div>
+        <h2>Superman: O Homem de Aço</h3>
+        <p>
+            Vindo de Krypton, Superman é o símbolo máximo de esperança. Com sua força descomunal, 
+            visão de calor e habilidade de voar, ele defende a Terra enquanto personifica valores 
+            como justiça, verdade e bondade.
+        </p>
+        <img src="Superman.png" alt="Imagem do Superman">
+    </div>
+    <div>
+        <h2>Batman: O Cavaleiro das Trevas</h3>
+        <p>
+            Sem poderes sobrenaturais, mas com uma mente brilhante e uma vontade inabalável, 
+            Batman usa tecnologia, estratégia e sua habilidade em combate para proteger Gotham 
+            City. Ele prova que a determinação humana é uma força poderosa.
+        </p>
+        <img src="Batman.png" alt="Imagem do Batman">
+    </div>
+    <div>
+        <h2>Mulher Maravilha: A Guerreira Amazona</h3>
+        <p>
+            Filha das Amazonas e dotada de poderes divinos, a Mulher Maravilha luta pela 
+            igualdade e pela paz. Armada com seu Laço da Verdade e braceletes indestrutíveis, 
+            ela é um ícone de força e inspiração.
+        </p>
+        <img src="MulherMaravilha.png" alt="Imagem da Mulher Maravilha">
+    </div>
+    <div>
+        <h2>Flash: O Velocista Escarlate</h3>
+        <p>
+            Com velocidade além da imaginação, Flash controla o tempo e o espaço enquanto 
+            combate o crime. Mais do que rápido, ele é inteligente e engenhoso, sempre pronto 
+            para salvar o dia em um piscar de olhos.
+        </p>
+        <img src="Flash.png" alt="Imagem do Flash">
+    </div>
+    <div>
+        <h2>Aquaman: O Rei dos Sete Mares</h3>
+        <p>
+            Protetor dos oceanos, Aquaman une os mundos terrestre e aquático. Sua força 
+            impressionante, capacidade de se comunicar com a vida marinha e liderança 
+            inspiradora o tornam um verdadeiro herói.
+        </p>
+        <img src="Aquaman.png" alt="Imagem do Aquaman">
+    </div>
+    <h2>
+        Esses heróis não são apenas personagens; são símbolos de determinação, superação e 
+        altruísmo. Junte-se a nós nesta jornada para explorar as histórias e lições desses 
+        ícones lendários.
+    </h2>
+    <h3>
+        Prepare-se para se inspirar. Os heróis estão chamando!
+    </h3>
+
+    <!-- Criação da tabela -->
+    <table> <!-- Iniciando a tabela -->
+
+        <caption>Tabela de Heróis Lendários</caption> <!-- Descreve o propósito da tabela -->
+        
+        <!-- Cabeçalho da tabela -->
+        <thead>
+            <tr>
+                <th>Herói</th> <!-- Cabeçalho para o nome do herói -->
+                <th>Superpoder</th> <!-- Cabeçalho para o poder do herói -->
+                <th>Nível de Força</th> <!-- Cabeçalho para o nível de força -->
+            </tr>
+        </thead>
+        
+        <!-- Corpo da tabela -->
+        <tbody>
+            <tr>
+                <td>Superman</td> <!-- Nome do herói -->
+                <td>Superforça</td> <!-- Poder do herói -->
+                <td>10</td> <!-- Nível de força -->
+            </tr>
+            <tr>
+                <td>Batman</td>
+                <td>Inteligência</td>
+                <td>8</td>
+            </tr>
+            <tr>
+                <td>Mulher-Maravilha</td>
+                <td>Força e resistência</td>
+                <td>9</td>
+            </tr>
+            <tr>
+                <td>Flash</td>
+                <td>Velocidade</td>
+                <td>9</td>
+            </tr>
+            <tr>
+                <td>Aquaman</td>
+                <td>Controle dos mares</td>
+                <td>7</td>
+            </tr>
+        </tbody>
+        <!-- Rodapé da tabela -->
+        <tfoot>
+            <tr>
+                <td colspan="3">Tabela criada por Aline Takai</td> <!-- Informação no rodapé -->
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
